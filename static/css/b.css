@@ -1,0 +1,14 @@
+.box{
+  width: 200px;
+  height: 200px;
+  background-color:black;
+  transition: background 1s;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.pink{
+  background-color: pink;
+  border: 1px black solid;
+}
